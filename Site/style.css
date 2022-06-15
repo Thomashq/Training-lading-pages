@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.login-group{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.3rem 0;
+    align-items: center;
+    background-color: white;
+    margin-top: 5%;
+}
+.group-login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.login-infos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-width: 34rem;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.group-infos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 100vh;
+}
+
+.Login{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.Logout{
+    color:#0095f6;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.site-img img{
+    width: 30rem;
+}
+.login-img{
+    width: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+
+}
+.insta-logo{
+    width: 6rem;
+}
