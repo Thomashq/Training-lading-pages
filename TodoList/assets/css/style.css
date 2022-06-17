@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    min-height:100vh;
+}
+.wrapper-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 2%;   
+}
+.ToDO{
+    display: flex;
+    flex-direction: center;
+    flex-wrap: wrap;
+}
+#btnAdd{
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: #504B43;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
