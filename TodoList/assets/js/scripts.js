@@ -6,14 +6,14 @@ const box = document.getElementById('box');
 const lista = document.getElementById('flist.value')
 const nome = document.getElementById('flist');
 
-btnAdd.addEventListener('click', function(){
+btnAdd.addEventListener('click', function entrada(){
     createInput();
     createLabel();
     lineBreaker();
+    valueClean();
     toDoList++;
 
-});
-
+}); 
 
 function createLabel(){
     let element = document.createElement('label');
@@ -34,4 +34,8 @@ function createInput(){
 function lineBreaker(){
     let element = document.createElement('br');
     box.appendChild(element);
+}
+
+function valueClean(){
+    flist.value = "";
 }

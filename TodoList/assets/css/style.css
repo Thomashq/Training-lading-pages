@@ -38,13 +38,16 @@ body{
 }
 .formulario{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
+
 }
 #flist{
     height: 25px;
 }
 .box{
+    
     margin-top: 5%;
+    max-width: 10rem;
 }
