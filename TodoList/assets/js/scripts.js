@@ -4,6 +4,7 @@ const btnAdd = document.getElementById('btnAdd');
 const forms = document.getElementById('Forms');
 const box = document.getElementById('box');
 const lista = document.getElementById('flist.value')
+const nome = document.getElementById('flist');
 
 btnAdd.addEventListener('click', function(){
     createInput();
@@ -17,7 +18,7 @@ btnAdd.addEventListener('click', function(){
 function createLabel(){
     let element = document.createElement('label');
     element.setAttribute('for', 'name_'+toDoList);
-    element.textContent = 'Paulo';
+    element.textContent = flist.value;
     box.appendChild(element);
 
 }

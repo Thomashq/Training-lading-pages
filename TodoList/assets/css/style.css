@@ -23,6 +23,8 @@ body{
 .ToDO{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 #btnAdd{
     text-decoration: none;
