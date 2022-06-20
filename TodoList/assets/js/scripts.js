@@ -8,7 +8,9 @@ const lista = document.getElementById('flist.value')
 btnAdd.addEventListener('click', function(){
     createInput();
     createLabel();
+    lineBreaker();
     toDoList++;
+
 });
 
 
@@ -22,8 +24,13 @@ function createLabel(){
 function createInput(){
     let element = document.createElement('input');
     element.setAttribute('type', 'checkbox');
-    element.setAttribute('name', 'name1');
+    element.setAttribute('name', 'name_'+toDoList);
     element.setAttribute('id', 'box');
 
+    box.appendChild(element);
+}
+
+function lineBreaker(){
+    let element = document.createElement('br');
     box.appendChild(element);
 }

@@ -22,8 +22,7 @@ body{
 }
 .ToDO{
     display: flex;
-    flex-direction: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 #btnAdd{
     text-decoration: none;
@@ -33,4 +32,17 @@ body{
     border-radius: 3px;
     padding: 5px;
     color: white;
+    margin-left: 5%;
+}
+.formulario{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+#flist{
+    height: 25px;
+}
+.box{
+    margin-top: 5%;
 }
